@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="./evol-logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <title>Login-Page</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="login-style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="./evol-logo.png" alt="">
+    </div>
+    <h1>Hi, welcome back!</h1>
+    <p>First time here? <span class="text-white">Sign up for free</span></p>
+  </header>
+  <form action="index.html">
+
+    <input type="email" name="email" placeholder="Your email" required>
+
+    <input type="password" name="password" placeholder="Password" minlength="6" required>
+    <p>Password must be at least 6 characters</p>
+
+    <button type="submit" class="Sign-btn">Sign in</button>
+    <div class="or">or</div>
+    <a href="#" class="log-btn" id="otp-btn">Login with phone number</a>
+  </form>
+
+
+  <div class="back-set">
+    <button onclick="window.location.href='index.html';" class="back-btn"><i class="ri-arrow-go-back-line"></i></button>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 ExolveUx. All rights reserved.</p>
+      <nav>
+        <a href="#">About</a> |
+        <a href="#">Contact</a> |
+        <a href="#">Privacy Policy</a>
+      </nav>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="log.js">
+  </script>
+</body>
+
+</html>
